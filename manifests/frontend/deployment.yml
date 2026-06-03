@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: TU_USUARIO/devops-frontend:latest
+          image: leandroyh456/devops-frontend:latest
           ports:
             - containerPort: 80
           readinessProbe:
