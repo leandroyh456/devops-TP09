@@ -41,7 +41,7 @@ spec:
               echo "Postgres listo"
       containers:
         - name: backend
-          image: tu_usuario/devops-portfolio:latest
+          image: leandroyh456/devops-portfolio:latest
           ports:
             - containerPort: 5000
           # Variables no sensibles desde ConfigMap
